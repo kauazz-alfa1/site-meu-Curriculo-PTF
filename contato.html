@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Contato</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+<h2>|Formulário de Contato|</h2>
+
+
+<form action="mailto:kauanerickflash@gmail.com" method="post" enctype="text/plain">
+<label>Nome completo:<br><input type="text" name="nome" required></label><br>
+<label>E-mail:<br><input type="email" name="email" required></label><br>
+<label>Telefone:<br><input type="tel" name="telefone"></label><br>
+<label>Data de nascimento:<br><input type="date" name="nascimento"></label><br>
+<label>Endereço:<br><input type="text" name="endereco"></label><br>
+<label>Cidade:<br><input type="text" name="cidade"></label><br>
+<label>Estado:<br><input type="text" name="estado"></label><br>
+<label>CEP:<br><input type="text" name="cep"></label><br>
+<label>Formação (nível):<br>
+<select name="formacao">
+<option value="medio">Ensino Médio</option>
+<option value="tecnico">Técnico</option>
+<option value="graduacao">Graduação</option>
+</select>
+</label><br>
+<label>Área pretendida:<br><input type="text" name="area"></label><br>
+<label>URL do portfólio / GitHub:<br><input type="url" name="portfolio"></label><br>
+<label>Resumo / Carta de Apresentação:<br><textarea name="carta" rows="5"></textarea></label><br>
+<label>Disponibilidade (horas/semana):<br><input type="number" name="disponibilidade" min="0"></label><br>
+
+
+<p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
+</form>
+
+
+</body>
+</html>
